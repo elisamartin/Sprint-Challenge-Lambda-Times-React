@@ -28,6 +28,7 @@ const TopBarContainer = styled.div`
 		width: 1280px;
 	}
 `;
+
 const TopBarContainerLeft = styled.div`
 	display: flex;
 	justify-content: none;
@@ -51,6 +52,7 @@ const TopBarContainerCenter = styled.div`
 	flex: 3;
 	font-size: 9px;
 `;
+
 const TopBarContainerCenterSpan = styled.span`
 	cursor: pointer;
 	margin-right: 5%;
@@ -71,6 +73,7 @@ const TopBarContainerRight = styled.div`
 	font-size: 11px;
 	font-weight: bold;
 `;
+
 const TopBarContainerRightSpan = styled.span`cursor: pointer;`;
 
 const TopBar = () => {
